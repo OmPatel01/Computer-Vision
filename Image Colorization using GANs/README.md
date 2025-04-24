@@ -50,3 +50,10 @@ This project implements a **deep learning-based image colorization model** using
   - **Reconstruction Loss** (L1)
 - Learning Rate Scheduler: StepLR
 - Gradient clipping for stable training
+
+## 📊 Evaluation Metrics
+
+To assess the quality of the generated color images, the following metrics were used:
+
+- **SSIM (Structural Similarity Index)**: Measures the perceived quality of images.
+- **PSNR (Peak Signal-to-Noise Ratio)**: Measures how close the generated image is to the ground truth.
